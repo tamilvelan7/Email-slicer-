@@ -1,0 +1,8 @@
+try:
+    email=input(("Enter your Email ID= "))
+    username=email[:email.index("@")]
+    print("UserName: ",username)
+    domain=email[email.index('@')+1:]
+    print("Domain: ",domain)
+except:
+  print("Something went wrong try again")
